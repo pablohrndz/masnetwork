@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: url(assets/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,13 @@
+.social img{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.social{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25px 0px 0px 25px;
+    height: 50px;
+}

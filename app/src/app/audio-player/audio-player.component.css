@@ -1,0 +1,13 @@
+.player-container{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100px;
+}
+.currentSong{
+    color: #fff;
+}
+.currentSong .title{
+    font-size: 0.90em;
+}
+.currentSong .artist{
+    font-size: 0.80em;
+}

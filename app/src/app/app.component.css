@@ -1,0 +1,78 @@
+app-audio-player{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+app-social-icons{
+    position: fixed;
+    right: 0px;
+    top: calc(50% - 110px);
+}
+.programa{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5em;
+    height: 19em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.programa img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    align-self: center;
+}
+.titulo{
+    font-size: 1.2em;
+    text-align: center;
+}
+.descripcion{
+    font-size: 0.8em;
+    color: #999;
+    margin-bottom: auto !important;
+    text-align: center;
+}
+.horario{
+    font-size: 0.8em;
+    margin-top: 0.25em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .programa{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .programa{
+        height: 19em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .programa{
+        height: 19em;
+    }
+}
+
+.por{
+    color: #fff;
+    text-align: center;
+    margin-top: 3em;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 0.8em;
+    border-radius: 5px;
+    padding: 0.25em;
+}
+
+.por a{
+    color: #fff;
+    
+}
