@@ -4,7 +4,12 @@
             <img src="assets/instagram.png">
         </a>
     </div>
-    <div class="social">
-        <img src="assets/whatsapp.png">
+    <div class="social ws">
+        <a (mouseover)="showWhatsappQR = true" (mouseout)="showWhatsappQR = false"  href="https://wa.me/584129799769">
+            <img src="assets/whatsapp.png">
+        </a>
+        <div [hidden]="!showWhatsappQR" id="ws-qr">
+            <img class="img-fluid" src="assets/wsqr.png">
+        </div>
     </div>
 </div>

@@ -11,3 +11,14 @@
     border-radius: 25px 0px 0px 25px;
     height: 50px;
 }
+
+#ws-qr{
+    position: fixed;
+    right: 50px;
+    top: calc(50% - 60px)
+}
+
+#ws-qr img{
+    height: 150px;
+    width: 150px;
+}

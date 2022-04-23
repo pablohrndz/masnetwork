@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-icons.component.css']
 })
 export class SocialIconsComponent implements OnInit {
+  public showWhatsappQR : boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  
 
 }
